@@ -1,0 +1,163 @@
+* {
+  -moz-box-sizing: border-box; 
+  -webkit-box-sizing: border-box; 
+  box-sizing: border-box; 
+  }
+  
+.clearfix::after {
+    content:"";
+    display: table;
+    clear: both;
+}
+
+body {
+    margin: auto;
+    font-family: 'Open Sans', sans-serif;
+    font-size:17px;
+    background: rgb(216, 198, 255);
+    text-align: center;
+}
+
+.flag{
+  margin: auto;
+ 
+}
+
+h1 {
+  font-size: 20x;
+  color: rgb(40, 39, 51);
+}
+
+h2 {
+  font-size: 19px;
+  color: rgb(40, 39, 51);
+}
+
+.practice {
+  float: left;
+  max-width: 690px;
+  height: 430px;
+  margin: 10px;
+  background: white;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 25px;
+  padding: 10px;
+  color: rgb(78, 76, 76);
+}
+
+.history {
+  float: left;
+  max-width: 690px;
+  height: 430px;
+  margin: 10px;
+  background: white;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 25px;
+  padding: 10px;
+  color: rgb(78, 76, 76);
+}
+
+.daimoku {
+  float: left;
+  max-width: 690px;
+  height: 430px;
+  margin: 10px;
+  background: white;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 25px;
+  padding: 10px;
+  color: rgb(78, 76, 76);
+  clear: both;
+}
+
+.images {
+  border-radius: 5px;
+}
+
+.podcast {
+  float: left;
+  max-width: 690px;
+  margin: 10px;
+  background: rgb(220, 179, 228);
+  border-radius: 5px;
+  text-align: center;
+  line-height: 25px;
+  padding: 10px;
+  color: rgb(78, 76, 76);
+}
+
+.buddhability {
+  float: left;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.lotus {
+  border-radius: 5px;
+  margin-top: 40px;
+}
+
+@media only screen and (min-width:370px) {
+  
+  body {
+    margin: auto;
+    font-family: 'Open Sans', sans-serif;
+    font-size:17px;
+    background: rgb(216, 198, 255);
+    text-align: center;
+}
+ .sgi {
+   padding: 20px;
+ }
+
+
+.practice {
+  float: left;
+  max-width: 690px;
+  height: 530px;
+  margin: 10px;
+  background: white;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 25px;
+  padding: 10px;
+  color: rgb(78, 76, 76);
+}
+
+.history {
+  float: left;
+  max-width: 690px;
+  height: 530px;
+  margin: 10px;
+  background: white;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 25px;
+  padding: 10px;
+  color: rgb(78, 76, 76);
+}
+
+.daimoku {
+  float: left;
+  max-width: 690px;
+  height: 530px;
+  margin: 10px;
+  background: white;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 25px;
+  padding: 10px;
+  color: rgb(78, 76, 76);
+  clear: both;
+}
+
+
+.buddhability {
+  border-radius: 5px;
+  margin:20px;
+}
+
+}
