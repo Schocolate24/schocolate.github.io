@@ -18,6 +18,9 @@ body {
     text-align: center;
 }
 
+a {
+  text-decoration: none;
+
 .flag{
   margin: auto;
  
